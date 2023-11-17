@@ -1,0 +1,41 @@
+.post {
+  margin-top: 15px;
+  margin-bottom: 5px;
+  border-radius: 5px;
+  padding-inline: 5px;
+  box-shadow: 2px 2px 4px var(--border-color);
+  .heading {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    cursor: pointer;
+    height: 60px;
+    padding: 20px;
+  }
+  .content {
+    height: 400px;
+    img {
+      height: 100%;
+      border-radius: 4px;
+      object-fit: cover;
+    }
+  }
+  .footer {
+    padding: 20px;
+  }
+  .like {
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+    gap: 10px;
+    .icon {
+      font-size: 1.2rem;
+    }
+  }
+  .caption {
+    margin-top: 5px;
+  }
+  .time-ago {
+    color: #aaa;
+  }
+}
